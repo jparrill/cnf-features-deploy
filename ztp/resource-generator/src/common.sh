@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Setup environment, validate access to API server
-# init <resourceName>
 init() {
     export CHECK_RC=1
     for idx in {25..1} ; do
