@@ -10,8 +10,8 @@
 # <your Red Hat email>
 # - Specify the type of your request:
 # Type 1
-HOOK ?= quay.io/redhat_emp1/ztp-site-generator
-BASE ?= quay.io/redhat_emp1/ztp-base
+HOOK ?= quay.io/jparrill/ztp-site-generator
+BASE ?= quay.io/jparrill/ztp-base
 
 TAR_NAME ?= temp.tar.gz
 ##@ General
