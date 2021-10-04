@@ -4,7 +4,7 @@
     name: sriov-fec-subscription 
     namespace: vran-acceleration-operators 
   spec:
-    channel: $channel 
-    name: $name 
-    source: $source 
+    channel: "stable" 
+    name: sriov-fec
+    source: certified-operators 
     sourceNamespace: openshift-marketplace
